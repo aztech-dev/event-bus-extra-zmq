@@ -4,11 +4,11 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "abf3f80a6ff1dd67a0f9f74e8f49b5ea",
+    "hash": "55ece702d65327dcc9490cf999950a1b",
     "packages": [
         {
             "name": "aztech/event-bus",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aztech-dev/event-bus.git",
@@ -1595,7 +1595,6 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "aztech/event-bus": 20,
         "moriony/php-zmq-stubs": 20
     },
     "prefer-stable": false,
