@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3c9e94e252c046ec3119c99acf86062",
+    "hash": "abf3f80a6ff1dd67a0f9f74e8f49b5ea",
     "packages": [
         {
             "name": "aztech/event-bus",

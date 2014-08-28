@@ -2,8 +2,8 @@
 
 namespace Aztech\Events\Bus\Plugins\ZeroMq\Writer;
 
-use Aztech\Events\Bus\Channel\ChannelWriter;
 use Aztech\Events\Event;
+use Aztech\Events\Bus\Channel\ChannelWriter;
 use Aztech\Events\Bus\Plugins\ZeroMq\ZeroMqSocketWrapper;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;

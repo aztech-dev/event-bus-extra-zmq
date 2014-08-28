@@ -3,9 +3,9 @@
 namespace Aztech\Events\Bus\Plugins\ZeroMq;
 
 use Aztech\Events\Bus\Channel\ChannelProvider;
+use Aztech\Events\Bus\Channel\ReadWriteChannel;
 use Aztech\Events\Bus\Plugins\ZeroMq\Reader\SubscribeChannelReader;
 use Aztech\Events\Bus\Plugins\ZeroMq\Writer\PublishChannelWriter;
-use Aztech\Events\Bus\Channel\ReadWriteChannel;
 
 class ZeroMqChannelProvider implements ChannelProvider
 {
