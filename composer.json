@@ -26,10 +26,5 @@
         "moriony/php-zmq-stubs": "dev-master",
         "squizlabs/php_codesniffer": "~1.5",
         "vektah/bugfree-dangerzone": "~0.2"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
     }
 }
