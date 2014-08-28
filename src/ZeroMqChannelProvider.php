@@ -30,6 +30,9 @@ class ZeroMqChannelProvider implements ChannelProvider
         return $dsn;
     }
 
+    /**
+     * @param \ZMQContext $context
+     */
     private function createZmqPublisher($context, $options)
     {
         $options['host'] = $options['publisher'];
@@ -37,6 +40,9 @@ class ZeroMqChannelProvider implements ChannelProvider
         return $this->createSocketWrapper($context, $options, \ZMQ::SOCKET_PUB);
     }
 
+    /**
+     * @param \ZMQContext $context
+     */
     private function createZmqSubscriber($context, $options)
     {
         $options['host'] = $options['subscriber'];
