@@ -1,6 +1,6 @@
 {
-    "name": "aztech/event-bus-extra-mixpanel",
-    "description": "aztech/event-bus Mixpanel publisher provider",
+    "name": "aztech/event-bus-extra-zmq",
+    "description": "aztech/event-bus ZMQ publisher provider",
     "keywords": [
         "event",
         "events",
@@ -11,7 +11,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Aztech\\Events\\Bus\\Plugins\\Mixpanel\\": "src/"
+            "Aztech\\Events\\Bus\\Plugins\\ZeroMq\\": "src/"
         }
     },
     "minimum-stability": "stable",
