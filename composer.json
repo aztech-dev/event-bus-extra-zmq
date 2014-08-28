@@ -17,9 +17,9 @@
     "minimum-stability": "stable",
     "require": {
         "ext-zmq": "*",
-        "aztech/event-bus": "dev-master",
+        "aztech/event-bus": "~1",
         "aztech/php-utils": "~0",
-        "psr/log": "~1.0"
+        "psr/log": "~1"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.2",
