@@ -18,7 +18,6 @@
     "require": {
         "ext-zmq": "*",
         "aztech/event-bus": "~1",
-        "aztech/php-utils": "~0",
         "psr/log": "~1"
     },
     "require-dev": {
